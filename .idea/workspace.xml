@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4bad16e-fb39-4034-b06e-7928ae057e6b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/DataProcessingTelephonBookImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/DataProcessingTelephonBookImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/DataProcessingTelephonBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/DataProcessingTelephonBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/ConsoleWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ConsoleWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/ConsoleWorkImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ConsoleWorkImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/DataProcessingTelephonBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="170">
+              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#295#296#0" expanded="true" />
@@ -32,6 +30,15 @@
                 <element signature="e#737#738#0" expanded="true" />
                 <element signature="e#785#786#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/DataProcessingTelephonBookImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -48,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/view/ConsoleWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="459">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,9 +90,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/model/DataProcessingTelephonBook.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/DataProcessingTelephonBookImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/ConsoleWorkImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/DataProcessingTelephonBook.java" />
         <option value="$PROJECT_DIR$/src/main/java/view/ConsoleWork.java" />
       </list>
     </option>
@@ -200,12 +207,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566043973951</updated>
-      <workItem from="1566043977508" duration="1630000" />
+      <workItem from="1566043977508" duration="1898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1630000" />
+    <option name="totallyTimeSpent" value="1898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="265" y="79" width="1609" height="953" extended-state="0" />
@@ -277,8 +284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/DataProcessingTelephonBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="170">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#295#296#0" expanded="true" />
@@ -291,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/view/ConsoleWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="459">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

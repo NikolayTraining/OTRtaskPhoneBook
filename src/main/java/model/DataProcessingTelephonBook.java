@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class DataProcessingTelephonBook {
+public class DataProcessingTelephonBook implements DataProcessingTelephonBookImpl{
     private Map<String, List<String>> map = new HashMap<>();
     private List<String> list;
     private List<String> list2;
@@ -43,6 +43,7 @@ public class DataProcessingTelephonBook {
         return (ArrayList<String>) list;
     }
 
+    @Override
     public void findTelephonNumberOnSurname(String surname) {
         if (map.get(surname) != null) {
             for (int i = 0; i < map.get(surname).size(); i++) {
