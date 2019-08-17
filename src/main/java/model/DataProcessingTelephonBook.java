@@ -1,5 +1,6 @@
 package model;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -20,9 +21,27 @@ public class DataProcessingTelephonBook {
     }
 
     private void readClientData(String s) {
-        
+        list2 = new ArrayList<>();
+        String[] vordsParts = s.split("\\s\\+");
+        addListTelephon(vordsParts);
+        for (int i = 1; i < vordsParts.length; i++) {
+            list2.add("+" + vordsParts[i]);
+        }
+        putMapBook(vordsParts[0], (ArrayList<String>) list2);
+
     }
 
+    private void putMapBook(String keyValueName, ArrayList<String> arrayList) {
+        map.put(keyValueName, arrayList);
+    }
+
+    private ArrayList<String> addListTelephon(String[] tel) {
+        list = new ArrayList<>();
+        for (int i = 1; i < tel.length; i++) {
+            list.add(tel[i]);
+        }
+        return (ArrayList<String>) list;
+    }
 
 
 }
