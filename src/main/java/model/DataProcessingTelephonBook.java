@@ -43,5 +43,16 @@ public class DataProcessingTelephonBook {
         return (ArrayList<String>) list;
     }
 
+    public void findTelephonNumberOnSurname(String surname) {
+        if (map.get(surname) != null) {
+            for (int i = 0; i < map.get(surname).size(); i++) {
+                System.out.println((i + 1) + ". " + map.get(surname).toArray()[i]);
+            }
+        } else {
+            if (!surname.equalsIgnoreCase("exit") && !surname.equalsIgnoreCase("выход")) {
+                System.out.println("такого ФИО в БД нет");
+            }
+        }
+    }
 
 }
